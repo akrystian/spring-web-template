@@ -1,13 +1,20 @@
 package pro.adamski.template
 
 import org.junit.jupiter.api.Test
-import org.springframework.boot.test.context.SpringBootTest
 
-@SpringBootTest
-class TemplateApplicationTests {
+class UnitTest {
 
-	@Test
-	fun contextLoads() {
-	}
+    @Test
+    fun shouldPass() {
+        //given
+        val a = 1
+        val b = 2
+
+        //when
+        val result = a + b
+
+        //then
+        assert(result == 3)
+    }
 
 }

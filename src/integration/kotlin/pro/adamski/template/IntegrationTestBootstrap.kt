@@ -1,8 +1,9 @@
+package pro.adamski.template
+
 import org.junit.jupiter.api.extension.ExtendWith
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.boot.test.web.client.TestRestTemplate
 import org.springframework.test.context.junit.jupiter.SpringExtension
-import pro.adamski.template.TemplateApplication
 
 @ExtendWith(SpringExtension::class)
 @SpringBootTest(

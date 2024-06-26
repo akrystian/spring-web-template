@@ -1,4 +1,4 @@
-package pro.adamski.template
+package pro.adamski.template.api
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
@@ -6,6 +6,7 @@ import org.springframework.http.HttpEntity
 import org.springframework.http.HttpMethod.GET
 import org.springframework.http.HttpStatus.OK
 import org.springframework.http.ResponseEntity
+import pro.adamski.template.IntegrationTestBootstrap
 
 class TemplateControllerTest : IntegrationTestBootstrap() {
 
